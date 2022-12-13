@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="zym.css">
+    <script src="zym.js"></script>
+</head>
+<body>
+    <div style="height:50px;float:right;margin-right: 30px;">
+        <ul>
+            <li style="font-size:20px;padding: 15px;"> 
+                <a style="text-decoration: none;color:white"  href="zympage.html">HOME</a></li>
+            <li style="font-size:20px;padding:15px;"> 
+                <a style="text-decoration: none;color:white" href="workout.html" target="_blank">WORK OUT</a></li>
+            <li style="font-size:20px;padding: 15px;"> 
+                <a style="text-decoration: none;color:white" href="diet.html">DIET</a></li>
+            <li style="font-size:20px;padding: 15px;"> 
+                <a style="text-decoration: none;color:white"href="join.html">JOIN</a></li>
+            <li style="font-size:20px;padding: 15px;"> 
+                <a  style="text-decoration: none;color:white" href="about.html">ABOUT US</a></li>
+        </ul>
+        <fieldset style="width:500px;height:200px;float:right;text-align: center;border: none;">
+            <h1 style="color: aliceblue;">Calculate your BMI</h1>
+        <tr>
+            <td>
+            <input id="w1" type="number" placeholder="Weight(kgs)"></input>
+            </td>
+            <td>   
+            <input id="h1" type="number"placeholder="Height(cms)" ></input>
+            </td>
+        </tr>
+        <br><br>
+        <tr>
+            <td>
+            <input list="raj1" placeholder="Gender"></input>
+            <datalist id="raj1">
+                <option>Male</option>
+                <option>Female</option>
+                <option>Others</option>
+            </datalist>
+            </td>
+            <td>
+            <input type="number" placeholder="Age"></input>
+            </td>
+        </tr>
+        <br><br>
+            <input type="button" value="Calculate" onclick="bmiCaluculate()" ></input>
+            <input type="reset" value="clear" ></input>
+            <br><br>
+            <em id="em" style="color:yellow;font-size:30px"></em>
+
+
+
+        </fieldset>
+       
+    </div>
+    <div id="a2">
+        <h1 style="color:darkorange;padding-top:200px;padding-left: 100px;">What is BMI</h1>
+        <h3  style="color:white;padding-left: 100px;">Body mass index is a value derived from the mass and height of a person.</h3 >
+            <h3 style="color:white;padding-left: 100px;">The BMI is defined as the body mass divided by the square of the body height,</h3>
+        <h3 style="color:white;padding-left: 100px;"> and is expressed in units of kg/m², resulting from mass in kilograms and height in metres.</h3>
+    
+    </div>
+    
+    <div>
+        
+        <img src="diet.jpg" style="width:700px;height:503px;"></img>
+        <img src="FOOD.PNg" style="width:616px;height:503px;"></img>
+       
+        <center><h1> “The gym is not the social club for the fit. It's a training ground for everyone.”</h1></center>
+        
+    </div>
+
+
+    
+</body>
+</html>
